@@ -4,16 +4,24 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { MenuComponent } from './menu/menu.component';
+
+import { RouterModule } from '@angular/router';
+import { ROUTES } from './app.routes';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SignUpComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
