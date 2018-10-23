@@ -16,11 +16,18 @@ export class UserProfileComponent implements OnInit {
 	};
 	allo = true;
 
+	showMovies = true;
+
 
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  changement(){
+  	if (this.showMovies==true) this.showMovies=false;
+  	else this.showMovies = true;
   }
 
   onClickMe(){

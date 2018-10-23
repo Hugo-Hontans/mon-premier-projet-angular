@@ -1,0 +1,7 @@
+.monStyle{
+	
+}
+.monStyle:hover {
+	color : blue;
+	font-size: 30px;
+}
