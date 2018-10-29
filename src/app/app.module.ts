@@ -8,6 +8,10 @@ import { MenuComponent } from './menu/menu.component';
 
 import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
+import { HighlightDirective } from './highlight.directive';
+import { ExcuseMoiJNDirective } from './excuse-moi-jn.directive';
+import { DisplayGuestsDirective } from './display-guests.directive';
+import { MerciAlexLaBalanceDirective } from './merci-alex-la-balance.directive';
 
 
 
@@ -16,7 +20,11 @@ import { ROUTES } from './app.routes';
     AppComponent,
     SignUpComponent,
     UserProfileComponent,
-    MenuComponent
+    MenuComponent,
+    HighlightDirective,
+    ExcuseMoiJNDirective,
+    DisplayGuestsDirective,
+    MerciAlexLaBalanceDirective
   ],
   imports: [
     BrowserModule,

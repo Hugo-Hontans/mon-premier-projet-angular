@@ -9,9 +9,9 @@
 	<input [(ngModel)]="User.quote" type="text" name="champ">
 </div>
 <button (click)="changement()">Afficher (via la variable showMovies) la liste ou pas !</button>
-<div *ngIf="showMovies==true">
+<div *appMerciAlexLaBalance="showMovies">
 	<ul>
-		<li [class]="'monStyle'">Movie : Titanic</li>
+		<li appExcuseMoiJN>Movie : Titanic</li>
 		<li>Movie : Casablanca</li>
 		<li>Movie : High Noon</li>
 		<li>Movie : Raging Bull</li>
